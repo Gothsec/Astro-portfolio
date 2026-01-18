@@ -1,4 +1,6 @@
 ---
+import '@fontsource-variable/montserrat';
+
 interface Props {
   title: string;
 }
@@ -28,7 +30,6 @@ const { title } = Astro.props;
 </html>
 
 <style is:global>
-  @import url('https://fonts.cdnfonts.com/css/montserrat');
 
   :root {
     --background: #101010;
@@ -40,7 +41,7 @@ const { title } = Astro.props;
 
   * {
     font-family:
-      "Montserrat",
+      "Montserrat Variable",
       -apple-system,
       system-ui,
       sans-serif;
