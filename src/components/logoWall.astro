@@ -18,28 +18,26 @@ const technologies = [
 ---
 
 <div class="relative overflow-x-hidden py-8">
-  <div
-    class="pointer-events-none absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-[var(--background)] to-transparent z-20"
-  >
-  </div>
-  <div
-    class="pointer-events-none absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-[var(--background)] to-transparent z-20"
-  >
-  </div>
+  <div class="pointer-events-none absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-[var(--background)] to-transparent z-20"></div>
+  <div class="pointer-events-none absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-[var(--background)] to-transparent z-20"></div>
 
-  <div class="flex animate-scroll hover:animate-paused gap-12 md:gap-20 w-max">
+  <div class="flex animate-scroll w-max will-change-transform">
     {
-      [...technologies, ...technologies, ...technologies].map((tech) => (
-        <div class="flex items-center gap-2 group transition-all duration-300">
+      [...technologies, ...technologies].map((tech, index) => (
+        <div 
+          class="flex items-center gap-2 pr-12 md:pr-20 group transition-all duration-300"
+          aria-hidden={index >= technologies.length ? "true" : "false"}
+        >
           <img
             src={`/svg/${tech}.svg`}
             alt={tech}
             class="h-7 w-auto object-contain transition-transform group-hover:scale-110 opacity-60"
             width="30"
             height="30"
-            loading="lazy"
+            loading={index < technologies.length ? "eager" : "lazy"}
+            decoding="async"
           />
-          <span class="text-lg font-medium text-[var(--white-icon)]">
+          <span class="text-lg font-medium text-[var(--white-icon)] whitespace-nowrap">
             {tech.charAt(0).toUpperCase() + tech.slice(1)}
           </span>
         </div>
@@ -50,11 +48,11 @@ const technologies = [
 
 <style is:global>
   @keyframes scroll {
-    from {
-      transform: translateX(0);
+    0% {
+      transform: translate3d(0, 0, 0);
     }
-    to {
-      transform: translateX(-50%);
+    100% {
+      transform: translate3d(-50%, 0, 0);
     }
   }
   .animate-scroll {
