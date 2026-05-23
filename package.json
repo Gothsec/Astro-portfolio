@@ -12,21 +12,21 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
-    "@astrojs/react": "^5.0.4",
+    "@astrojs/react": "^5.0.5",
     "@astrojs/tailwind": "^6.0.2",
     "@fontsource-variable/montserrat": "^5.2.8",
-    "@types/react": "^19.1.16",
-    "@types/react-dom": "^19.1.9",
-    "astro": "^6.1.10",
-    "firebase": "^12.12.1",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^6.3.7",
+    "firebase": "^12.13.0",
     "ogl": "^1.0.11",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
     "sharp": "^0.34.5",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   },
   "devDependencies": {
-    "@types/node": "^25.6.0",
+    "@types/node": "^25.9.1",
     "prettier": "^3.8.3",
     "prettier-plugin-astro": "^0.14.1"
   },
