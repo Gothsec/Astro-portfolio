@@ -12,22 +12,22 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
-    "@astrojs/react": "^5.0.4",
+    "@astrojs/react": "^6.0.1",
     "@astrojs/tailwind": "^6.0.2",
-    "@fontsource-variable/montserrat": "^5.2.8",
-    "@types/react": "^19.1.16",
-    "@types/react-dom": "^19.1.9",
-    "astro": "^6.1.10",
-    "firebase": "^12.12.1",
+    "@fontsource-variable/montserrat": "^5.3.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^7.1.1",
+    "firebase": "^12.16.0",
     "ogl": "^1.0.11",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "sharp": "^0.34.5",
-    "typescript": "^5.9.3"
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "sharp": "^0.35.3",
+    "typescript": "^7.0.2"
   },
   "devDependencies": {
-    "@types/node": "^25.6.0",
-    "prettier": "^3.8.3",
+    "@types/node": "^26.1.1",
+    "prettier": "^3.9.5",
     "prettier-plugin-astro": "^0.14.1"
   },
   "engines": {
