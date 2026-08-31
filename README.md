@@ -99,4 +99,4 @@ This project is built with Astro and can be easily deployed to Vercel, Netlify, 
 > **Important Notice:**  
 > This project is licensed under the [MIT License](https://opensource.org/licenses/mit).  
 > According to the license terms, any redistribution (including compiled or modified versions), you **must** retain the original copyright 
-> notice and the full license text. Copyright © 2025 Oscar Hernandez. All rights reserved.
+> notice and the full license text. Copyright © 2026 Oscar Hernandez. All rights reserved.

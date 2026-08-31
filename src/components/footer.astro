@@ -1,5 +1,7 @@
 ---
 import LikeButton from "../React/LikeButton.tsx";
+
+const currentYear = new Date().getFullYear();
 ---
 
 <footer class="w-full py-12 border-t border-[#ffffff10]">
@@ -100,7 +102,7 @@ import LikeButton from "../React/LikeButton.tsx";
       <p class="text-center text-sm text-[var(--white-icon)] space-y-2">
         <!-- If you are using this template, by MIT License you can't remove the copyright notice -->
         <span class="block sm:inline"
-          >Copyright © 2025 <a href="https://github.com/Gothsec"
+          >Copyright © {currentYear} <a href="https://github.com/Gothsec"
             >Oscar Hernandez</a
           >. All rights reserved.</span
         >
