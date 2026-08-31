@@ -5,7 +5,13 @@ updates:
     schedule:
       interval: "weekly"
     groups:
-      # Group all the updates in a single PR
+      # Group all the updates in a single PR, except sensitive packages
+      # (typescript/astro) that get their own PR for manual review, since
+      # major bumps there have broken `astro check` in the past.
       all-dependencies:
         patterns:
           - "*"
+        exclude-patterns:
+          - "typescript"
+          - "astro"
+          - "@astrojs/*"

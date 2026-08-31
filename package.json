@@ -2,6 +2,7 @@
   "name": "portfolio",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@11.2.2",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "astro dev",
@@ -11,19 +12,19 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.9",
-    "@astrojs/react": "^5.0.4",
+    "@astrojs/check": "^0.9.10",
+    "@astrojs/react": "^6.0.4",
     "@astrojs/tailwind": "^6.0.2",
     "@fontsource-variable/montserrat": "^5.2.8",
     "@types/react": "^19.1.16",
     "@types/react-dom": "^19.1.9",
-    "astro": "^7.1.0",
+    "astro": "^7.2.9",
     "firebase": "^12.12.1",
     "ogl": "^1.0.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sharp": "^0.34.5",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   },
   "devDependencies": {
     "@types/node": "^25.6.0",

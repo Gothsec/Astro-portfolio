@@ -1,4 +1,5 @@
 {
+  "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "module": "ES2020",
     "allowImportingTsExtensions": true,

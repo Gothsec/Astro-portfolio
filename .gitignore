@@ -7,6 +7,9 @@ dist/
 # dependencies
 node_modules/
 
+# this project uses pnpm exclusively (see preinstall script) — no npm lockfile
+package-lock.json
+
 # logs
 npm-debug.log*
 yarn-debug.log*
