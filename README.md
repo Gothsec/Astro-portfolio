@@ -1,5 +1,5 @@
-# Portfolio
-> A minimal, highly customizable, and performant portfolio template built with Astro, React, and Tailwind CSS.
+# Dark minimal
+> Highly customizable and performant portfolio template built with Astro, React, and Tailwind CSS.
 
 ![OscarHernandez-portfolio](https://github.com/user-attachments/assets/e284a42b-15c5-495c-99c7-ad5c1eb3bbe7)
 ![Deploy Status](https://img.shields.io/badge/Deploy-Vercel-black?style=flat&logo=vercel)
@@ -9,11 +9,11 @@
 [Demo](https://darkminimal.vercel.app) | [Astro Themes](https://astro.build/themes/details/dark-minimal/) | [ReactBits Showcase](https://www.reactbits.dev/showcase) 
 
 ## **Features**
-- 🚀 **Blazing fast performance** powered by Astro
-- 🎨 **Beautifully styled** with Tailwind CSS
-- 🎵 **Spotify integration** for showcasing your favorite album
-- ✉️ **Working contact form** powered by Formspree
-- ⚛️ **Interactive UI** including the `<LetterGlitch />` component from [ReactBits.dev](https://www.reactbits.dev/)
+- **Blazing fast performance** powered by Astro
+- **Beautifully styled** with Tailwind CSS
+- **Spotify integration** for showcasing your favorite album
+- **Working contact form** powered by Formspree
+- **Interactive UI** including the `<LetterGlitch />` component from [ReactBits.dev](https://www.reactbits.dev/)
 
 ## **Stack**  
 ### **Frontend**  
@@ -102,8 +102,5 @@ npm run dev
 
 ## **Deployment**
 This project is built with Astro and can be easily deployed to Vercel, Netlify, or GitHub Pages. For the easiest setup, push your repository to GitHub and import it directly into [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
-
-> **Important Notice:**  
-> This project is licensed under the [MIT License](https://opensource.org/licenses/mit).  
-> According to the license terms, any redistribution (including compiled or modified versions), you **must** retain the original copyright 
-> notice and the full license text. Copyright © 2026 Oscar Hernandez. All rights reserved.
+ 
+> This project is licensed under the [MIT License](https://opensource.org/licenses/mit). 
