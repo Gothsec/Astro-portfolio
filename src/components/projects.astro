@@ -1,13 +1,8 @@
 ---
-import { Image } from "astro:assets";
-import svgl from "../../public/svgl.png";
-import stockin from "../../public/stockin.png";
-import moviesfordevs from "../../public/moviesfordevs.png";
-import velez from "../../public/velez.png";
 
 interface Project {
   title: string;
-  image: ImageMetadata;
+  image: string;
   link: string;
   preview: string;
   status: string;
@@ -15,31 +10,31 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "MoviesForDevs",
-    image: moviesfordevs as ImageMetadata,
-    link: "https://github.com/gothsec/MoviesForDevs",
-    preview: "https://movies-for-devs.vercel.app",
+    title: "Project One",
+    image: "https://placehold.co/600x400/1a1a1a/ffffff?text=Project+One",
+    link: "https://github.com",
+    preview: "https://example.com",
     status: "Deployed",
   },
   {
-    title: "StockIn",
-    image: stockin as ImageMetadata,
-    link: "https://github.com/gothsec/stockin-demo",
-    preview: "https://stockin-demo.vercel.app",
+    title: "Project Two",
+    image: "https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Two",
+    link: "https://github.com",
+    preview: "https://example.com",
     status: "On Development",
   },
   {
-    title: "Svgl.app",
-    image: svgl as ImageMetadata,
-    link: "https://github.com/pheralb/svgl",
-    preview: "https://svgl.app",
+    title: "Project Three",
+    image: "https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Three",
+    link: "https://github.com",
+    preview: "https://example.com",
     status: "Contributor",
   },
   {
-    title: "Rifas Velez Web",
-    image: velez as ImageMetadata,
-    link: "https://github.com/Buga-Software/rifasvelez-web",
-    preview: "https://www.rifasvelez.com",
+    title: "Project Four",
+    image: "https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Four",
+    link: "https://github.com",
+    preview: "https://example.com",
     status: "Deployed",
   },
 ];
@@ -64,7 +59,7 @@ const projects: Project[] = [
               class="block"
             >
               <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4">
-                <Image
+                <img
                   src={project.image}
                   alt={project.title}
                   class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300"
@@ -117,7 +112,7 @@ const projects: Project[] = [
     </div>
     <a
       target="_blank"
-      href="https://github.com/Gothsec?tab=repositories"
+      href="https://github.com"
       aria-label="GitHub"
       class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)] hover:scale-105"
     >

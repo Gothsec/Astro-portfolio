@@ -1,12 +1,12 @@
 # Portfolio
-> A minimal, highly customizable, and performant personal portfolio template built with Astro, React, and Tailwind CSS.
+> A minimal, highly customizable, and performant portfolio template built with Astro, React, and Tailwind CSS.
 
 ![OscarHernandez-portfolio](https://github.com/user-attachments/assets/e284a42b-15c5-495c-99c7-ad5c1eb3bbe7)
 ![Deploy Status](https://img.shields.io/badge/Deploy-Vercel-black?style=flat&logo=vercel)
 
 ---
 
-[Demo](https://oscarhernandez.vercel.app/) | [Astro Themes](https://astro.build/themes/details/dark-minimal/) | [ReactBits Showcase](https://www.reactbits.dev/showcase) 
+[Demo](https://darkminimal.vercel.app) | [Astro Themes](https://astro.build/themes/details/dark-minimal/) | [ReactBits Showcase](https://www.reactbits.dev/showcase) 
 
 ## **Features**
 - 🚀 **Blazing fast performance** powered by Astro
@@ -45,6 +45,13 @@
 ```html
 <form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST">
 ```
+
+## **Customization Checklist**
+Before deploying your own instance, make sure to update these placeholder values with your real information:
+- **`src/layouts/Layout.astro`**: Update `title`, `description`, `canonical` URL, `og` tags, and the JSON-LD schema with your own details.
+- **`src/components/home.astro`**: Change the greeting "Your Name" and update the GitHub, LinkedIn, and email URLs.
+- **`src/components/projects.astro`**: Replace the generic projects (Project One, etc.) with your own, including titles, descriptions and links.
+- **`src/components/footer.astro`**: Update the social links, change the Spotify iframe to your playlist, and update the copyright name.
 
 ## **Customization**
 To make this portfolio your own, you can edit the following files:

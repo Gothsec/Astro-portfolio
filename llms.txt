@@ -13,7 +13,7 @@ and a Firebase project (like counter). Spotify embed is a plain HTML iframe--no 
 - [README](https://github.com/Gothsec/Portfolio/blob/main/README.md): setup instructions, configuration guides for Spotify and Formspree, project structure, and deployment notes
 - [Spotify configuration guide](https://github.com/Gothsec/Portfolio/blob/main/README.md#show-your-favorite-spotify-album-or-your-own-): how to embed a Spotify album via iframe in `src/components/footer.astro`
 - [Formspree configuration guide](https://github.com/Gothsec/Portfolio/blob/main/README.md#set-up-contact-form-formspree-): how to wire the contact form in `src/components/contact.astro` to a Formspree endpoint
-- [Live demo](https://oscarhernandez.vercel.app/): deployed instance of the portfolio
+- [Live demo](https://darkminimal.vercel.app): deployed instance of the portfolio
 - [Astro Themes listing](https://astro.build/themes/details/dark-minimal/): official theme entry
 
 ## Stack
